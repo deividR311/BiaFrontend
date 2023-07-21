@@ -101,9 +101,17 @@ Clean Architecture
 |App
 |index
 
+# API Rest Consuption
+
+## Async services --> ( Context, Reducer, State ) --> Provider(App)
+
 # Project style modes
 
 ## `light`
 
 ## `dark`
+
+# Strings manager
+
+## i18n
 
