@@ -52,7 +52,7 @@ export const Country = () => {
       <div className='country-ctn'>
         <Row>
           <Col sm={6} className='country-img'>
-            <img src={country.flags.png} alt="image" />
+            <img src={country.flags.png} alt="flag.png" />
           </Col>
           <Col sm={6}>
             <CountryDescription
