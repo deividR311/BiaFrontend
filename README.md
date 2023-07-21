@@ -51,8 +51,9 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 Clean Architecture
 
-## Directory structure src
+# Directory structure src
 
+##
 |-assets
     | fonts
 |-config
@@ -100,4 +101,9 @@ Clean Architecture
 |App
 |index
 
+# Project style modes
+
+## `light`
+
+## `dark`
 
