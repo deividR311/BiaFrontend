@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# Getting Started
+
+## `git clone`
+
+Clone project from the repository https://github.com/deividR311/BiaFrontend.git
+
+## `yarn install` || `npm install`
+
+Install dependencies
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -6,7 +14,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm start` || `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -14,7 +22,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+### `npm test` || `yarn test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
@@ -39,8 +47,57 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+# Architecture
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Clean Architecture
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Directory structure src
+
+|-assets
+    | fonts
+|-config
+    | BaseService
+|-modules
+    | module
+        | contexts
+            | Context
+            | Reducer
+            | State
+            types
+        | models
+            | Model
+        | pages
+            | Page
+                | components
+                    | tsx
+                scss
+                tsx
+        | services
+            ts
+        Pages
+|-router
+    | tsx
+    | ts
+|-shared
+    | components
+        | tsx
+        Components
+    | i18n
+        | json
+        | ts
+|-tests
+    | modules
+        | module
+            | contexts
+            | pages
+    | shared
+        | components
+            | js
+|-theme
+    | Base
+        scss
+    | scss
+|App
+|index
+
+

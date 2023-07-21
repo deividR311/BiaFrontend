@@ -1,0 +1,21 @@
+{
+    "whereWorld" : "Where in the world?",
+    "darkMode" : "Dark mode",
+    "lightMode" : "Light mode",
+    "searchCountry": "Search for a country...",
+    "filterRegion": "Filter by region",
+    "Population": "Population",
+    "Region": "Region",
+    "Capital": "Capital",
+    "Africa": "Africa",
+    "America": "America",
+    "Asia": "Asia",
+    "Europe": "Europe",
+    "Oceania": "Oceania",
+    "NativeName": "Native Name",
+    "SubRegion": "Sub Region",
+    "TopLevelDomain": "Top Level Domain",
+    "Currencies": "Currencies",
+    "Languages": "Languages",
+    "BorderCountries": "Border Countries"
+}

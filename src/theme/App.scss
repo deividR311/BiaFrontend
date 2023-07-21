@@ -1,0 +1,105 @@
+@import './base/settings';
+@import './base/base';
+
+body,
+html {
+  font-family: 'Nunito Sans', sans-serif;
+//   background-color: transparent;
+}
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: local('Nunito Sans'), url(../assets/fonts/NunitoSans_7pt_Condensed-Regular.ttf) format('truetype');
+}
+
+.App {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#light {
+    background-color: $Very-Light_Gray;
+    color: $Very_Dark_Blue;
+
+    .header {
+        background-color: $White;
+
+        -webkit-box-shadow: 0px 2px 12px -3px $Dark_Gray;
+        -moz-box-shadow: 0px 2px 12px -3px $Dark_Gray;
+        box-shadow: 0px 2px 12px -3px $Dark_Gray;
+
+        .header-btn {
+            color: $Very_Dark_Blue;
+            --bs-btn-hover-bg: hsl(0, 0%, 98%);
+            --bs-btn-active-bg: hsl(0, 0%, 98%);
+            --bs-btn-active-border-color: hsl(0, 0%, 98%);
+        }
+    }
+
+    .countries-form-control {
+        background-color: $White;
+        color: $Very_Dark_Blue;
+        border: none;
+        -webkit-box-shadow: 0px 2px 12px -3px $Dark_Gray;
+        -moz-box-shadow: 0px 2px 12px -3px $Dark_Gray;
+        box-shadow: 0px 2px 12px -3px $Dark_Gray;
+    }
+
+    .countries-card {
+        background-color: $White;
+        color: $Very_Dark_Blue;
+    }
+
+    .country-btn {
+        background-color: $White;
+        color: $Very_Dark_Blue;
+        -webkit-box-shadow: 0px 2px 12px -3px $Dark_Gray;
+        -moz-box-shadow: 0px 2px 12px -3px $Dark_Gray;
+        box-shadow: 0px 2px 12px -3px $Dark_Gray;
+    }
+}
+
+#dark {
+    background-color: $Very_Dark_Blue;
+    color: $White;
+
+    .header {
+        background-color: $Dark_Blue;
+
+        -webkit-box-shadow: 0px 2px 12px -3px $Very_Dark_Blue_Light;
+        -moz-box-shadow: 0px 2px 12px -3px $Very_Dark_Blue_Light;
+        box-shadow: 0px 2px 12px -3px $Very_Dark_Blue_Light;
+        .header-btn {
+            --bs-btn-hover-bg: hsl(207, 26%, 17%);
+            --bs-btn-active-bg: hsl(207, 26%, 17%);
+            --bs-btn-active-border-color: hsl(207, 26%, 17%);
+        }
+    }
+
+    .countries-form-control {
+        background-color: $Dark_Blue;
+        color: $White;
+        border: none;
+        -webkit-box-shadow: 0px 2px 12px -3px $Very_Dark_Blue_Light;
+        -moz-box-shadow: 0px 2px 12px -3px $Very_Dark_Blue_Light;
+        box-shadow: 0px 2px 12px -3px $Very_Dark_Blue_Light;
+    }
+
+    .countries-card {
+        background-color: $Dark_Blue;
+        color: $White;
+    }
+
+    .country-btn {
+        background-color: $Dark_Blue;
+        -webkit-box-shadow: 0px 2px 12px -3px $Very_Dark_Blue_Light;
+        -moz-box-shadow: 0px 2px 12px -3px $Very_Dark_Blue_Light;
+        box-shadow: 0px 2px 12px -3px $Very_Dark_Blue_Light;
+    }
+}
+// Components
+@import '../shared/components/header/header';
+@import '../modules/countries/pages/countries/countries';
+@import '../modules/countries/pages/country/country';
